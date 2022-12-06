@@ -1,0 +1,381 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Ubuntu:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700;700&display=swap'); */
+
+
+/* ====================================================================================================== CSS FOR NAVBAR */
+.navbar_my {
+    display: flex;
+    background-color: #FFC017;
+    justify-content: space-around;
+}
+
+.navbar_my .styling_logo {
+    height: 80px;
+    width: 150px
+}
+
+.navbar_my .links {
+    gap: 25px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 900;
+    color: #191919;
+    align-items: center;
+    
+}
+
+.link_color {
+    color: #191919 !important;
+    font-family: 'Cormorant SC', serif;
+}
+
+
+/* ====================================================================================================== CSS FOR HEADER */
+.header_height {
+    min-height: 60vh;
+    background-color: #FFC017;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header_design {
+    display: flex;
+    justify-content: center;
+}
+
+.header_design h1 {
+    font-size: 106px;
+    font-weight: 400;
+    line-height: 95px;
+    flood-color: rgb(8,8,8);
+    margin-top: 50px !important;
+    
+}
+
+.header_design p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    flood-color: rgb(41,41,41);
+    margin-top: 40px !important;
+}
+
+.header_design .btn_design {
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 24px;
+    flood-color: rgb(255,255,255);
+    padding: 9px 35px !important;
+    border-radius: 25px !important;
+    margin-top: 40px !important;
+}
+
+/* ====================================================================================================== CSS FOR BLOG { home page } */
+.blog_design {
+    background-color: #FFFFFF !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.blog_detail_side {
+    gap: 10px !important;
+}
+
+.blogger_pic img  {
+    border-radius: 100% !important;
+    width: 30px;
+    margin-top: 5px 0x;
+}
+
+.blog_detail_sid .title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(41,41,41);
+}
+
+.blog_detail_sid .sub_title {
+    color: black !important;
+    font-weight: bold;
+    
+}
+
+.blog_detail_side .name {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    color: rgb(41,41,41)
+}
+
+
+.blog_picture_side img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.desing_blog_name_button {
+    border: 1px solid black !important;
+    border-radius: 5px;
+    padding: 9px !important;
+}
+
+.font_icon_font_family_syle {
+    font-family: "koHo";
+}
+
+/* ================================================================================================== CSS FOR LOGIN USER BLOG PAGE { home page } */
+
+.main_div {
+    width: 100%;
+    display: flex;
+    /* min-height: 100vh; */
+}
+
+/* ***************************************** Left Div *****************************************  */
+
+.main_div .left_side_links_progile {
+    width: 5%;
+    background-color: #FFFFFF;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.design_login_user_page_logo {
+    width: 60px;
+    padding-top: 20px !important;
+    margin-left: 6px !important;
+    border-radius: 20px;
+}
+
+.main_div .links .icons_design {
+    font-size: 25px !important;
+    margin-left: 20px !important;
+}
+
+.main_div .left_side_links_blog {
+    background-color: #FFFFFF;
+    /* margin: 20px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 5% 10% !important;  */
+    width: 95%;
+}
+
+.main_div  .singn_in_blogger_pic {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0px 0px 30px 10px !important;
+    border-radius: 40px;
+}   
+
+.defin_width_of_blogs {
+    width: 65%;
+    padding: 5% 10% !important;
+}
+
+.defin_width_of_filtered_side {
+    width: 35%;
+    /* background-color: #FFC017; */
+    min-height: 100vh;
+    padding: 0px 2% !important;
+}
+
+ .defin_main_div_width {
+    width: 100%;
+    /* background-color:aqua; */
+ }
+
+/* ***************************************** Middle Div *****************************************  */
+.main_div_module {
+    width: 100%;
+    display: flex !important;
+}
+
+.main_div_module .blog_detail_side {
+    width: 75%;
+}
+
+.main_div .blog_pic_side {
+    width: 25%;
+}
+
+.main_div .blog_detail_side .pic_name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login_blogger_pic {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 40px;
+    margin-bottom: 20px !important;
+}
+
+.category_button_design {
+    border-radius: 40px !important;
+    border: 1px solid lightgray !important;
+}
+
+.blog_pic_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px !important;
+}
+
+.middle_deiv_blog_pic {
+    width: 120px !important;
+}
+
+
+.vl {
+    border-left: 1px solid lightgray;    
+    min-height: 100vh;
+}  
+
+
+
+
+/* ================================================================================================== CSS FOR LOGIN WRITEBLOG PAGE { home page } */
+.write_blog_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF !important;
+    align-items: center;
+    height: 50px;
+}
+
+.write_blog_header .logo {
+    font-weight: lighter !important;
+}
+
+
+.write_blog_header .write_page_user_pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    margin: 0px 0px !important;
+}
+
+.text_area_design {
+    margin-top: 30px !important;
+    display: flex !important;
+    width: 900px !important;
+    justify-content: center !important;
+}
+
+.text_area_design .select_design {
+    width: 800px !important;
+    padding: 5px !important;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+
+.home_page_render_blog {
+    width: 100%;
+    display: flex;
+    padding: 40px !important;
+}
+.home_page_render_blog .blog_detail_side {
+    width: 70%;
+ }
+
+.home_page_render_blog .filter_detail {
+    width: 34%;
+    margin-top: 70px !important;
+    max-height: 100vh !important;
+ }
+
+.main_div_for_d-flex{
+    display: flex;
+    margin-top: 60px !important;
+}
+
+.main_div_for_d-flex .blog_detail_side-left {
+    width: 65%;
+    padding-left: 15% !important;
+}
+
+.main_div_for_d-flex .blog_picture_side_right {
+    width: 35%;
+}
+
+.blog_detail_side-left .home_blog_author_pic {
+    width: 40px !important;
+    border-radius: 50px;
+}
+
+.delete_model_design {
+    margin: 100px 32% !important;
+    border-radius: 2px;
+    border-bottom: 3px solid lightgray;
+}
+
+.style_google_login {
+    border-radius: 20px !important;
+    /* background-color: #FFFFFF !important; */
+    padding: 12px !important;
+    border: 1px solid lightgray !important;
+}
+
+.rich_text_editor_design {
+    width: 500px !important;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid black;
+    border-top: 10px solid #383636;
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+}
+
+.spinner-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.password-icon {
+    position: absolute;
+    top: 300px;
+    right: 260px;
+    cursor: pointer;
+}
+
+.c-password-icon {
+    position: absolute;
+    top: 364px;
+    right: 260px;
+    cursor: pointer;
+}
+
+.password-icon-login{
+    position: absolute;
+    top: 250px;
+    right: 260px;
+    cursor: pointer;
+}
+
+.page-item-design {
+    padding: 0px 5px !important;
+}
+
+.page-link-design {
+    padding: 0px 12px !important;
+}
